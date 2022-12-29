@@ -17,7 +17,7 @@ const Contact = () => {
 
   return (
     <div className="container-body">
-      <div class="container d-flex justify-content-around pt-5 align-items-start">
+      <div class="container d-flex justify-content-around pt-5 pb-5 align-items-start">
         <form onSubmit={handleSubmit} className="col-sm-4">
           <div className="form-group">
             <label className="form-label mt-3" style={{ color: '#00d8fe' }}>
