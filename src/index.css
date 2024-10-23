@@ -51,13 +51,35 @@ header {
   color: #00d8fe;
   font-size: 24px;
   font-family: 'Source Code Pro', monospace;
-  animation: all 0.5 ease-in;
+  position: relative; /* Necessary for the pseudo-element */
+  cursor: pointer;
+  transition: color 0.35s ease-in; /* Smooth color transition */
 }
+
+/* Hover effect on the text color */
 .container-list ul a:hover {
-  border-bottom: 2px solid #00d8fe;
-  color: #fff;
-  animation: all 0.3 ease-in;
+  color: rgb(255, 255, 255); /* Change text color on hover */
 }
+
+/* Sliding bottom border effect */
+.container-list ul li::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  color: rgb(255, 255, 255);
+  background-color: #00d8fe; /* Border color */
+  transition: width 0.35s ease-in; /* Smooth sliding effect */
+}
+
+/* On hover, expand the bottom border */
+.container-list ul li:hover::after {
+  color: rgb(255, 255, 255);
+  width: 100%; /* Make the border fully visible */
+}
+
 .card-item {
   border-radius: 45px;
   border: 1px solid #00d8fe;
@@ -217,7 +239,7 @@ p {
   padding-right: 1.25rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  border-radius: 100px;
+  border-radius: 16px;
   border: 1px solid #00d8fe;
   box-shadow: 0 0 2px 0 #00d8fe, 0 3px 3px 0 #00d8fe;
   color: #00d8fe;
@@ -240,7 +262,7 @@ input[type='radio'] {
   width: 200px;
   font-size: 1.25rem;
   font-weight: 500;
-  border-radius: 75px;
+  border-radius: 10px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   box-shadow: 0 0 2px 0 #00d8fe44, 0 6px 12px 0 #00d8fe45;
