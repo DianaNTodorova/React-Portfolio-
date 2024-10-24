@@ -1,9 +1,11 @@
 import { Button } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import { cardData } from './cardData';
 
 export default function CardItem() {
   return (
-    <div className="container mt-5 mb-5">
+    <div className="container mt-5 mb-5 justify-content-center">
       <div className="row row-cols-1 row-cols-md-3 g-4">
         {cardData.map((data, index) => (
           <div className="col" key={index}>

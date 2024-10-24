@@ -6,7 +6,7 @@ const Tabs = () => {
   const [activeTab, setActiveTab] = useState(1);
 
   return (
-    <div className="container d-flex mt-3">
+    <div className="container d-flex mt-3 justify-content-center">
       <div className="tabs">
         <input
           type="radio"
