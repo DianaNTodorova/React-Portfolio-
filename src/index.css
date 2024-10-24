@@ -81,11 +81,17 @@ header {
 }
 
 .card-item {
-  border-radius: 45px;
-  border: 1px solid #00d8fe;
-  box-shadow: 0 0 2px 0 #00d8fe, 0 3px 3px 0 #00d8fe;
+  border-radius: 10px !important;
+  border: 1px solid #00d8fe !important;
+  box-shadow: 0 0 2px 0 #00d8fe3f, 0 6px 6px 1px #00d8fe3f;
   color: #00d8fe;
+  overflow: hidden; /* Ensures child elements respect the border-radius */
 }
+
+.card-item img {
+  border-radius: 10px 10px 0 0 !important; /* Top corners rounded */
+}
+
 a {
   padding: 0.75rem;
 }
