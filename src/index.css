@@ -116,10 +116,10 @@ p {
 .scroll-button {
   position: fixed;
   bottom: 20px;
-  right: 20px;
+  right: 50%;
   width: 50px;
   height: 50px;
-  background-color: #00d8fe;
+  background-color: none;
   border: none;
   border-radius: 50%;
   color: white;
@@ -129,12 +129,18 @@ p {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: background-color 0.3s;
+  border-radius: 35px;
+  border: 2px solid #00d8fe;
+  box-shadow: 0 0 2px 0 #00d8fe, 0 3px 6px 0 #00d8fe;
+  color: #00d8fe;
+  z-index: 100;
 }
 
 .scroll-button svg {
   width: 24px;
   height: 24px;
   border: none;
+  background-color: none;
 }
 footer {
   display: block;
