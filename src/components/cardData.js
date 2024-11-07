@@ -3,7 +3,7 @@ export const cardData = [
   {
     title: 'Card 1 Title',
     text: 'Card 1 text content',
-    imgUrl: 'https://example.com/image.jpg', // Image URL
+    imgUrl: '../images/tictactoe.jpeg', // Image URL
     link: 'https://example.com',
   },
   {
