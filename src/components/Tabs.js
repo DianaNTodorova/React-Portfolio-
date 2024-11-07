@@ -16,7 +16,7 @@ const Tabs = () => {
           onChange={() => setActiveTab(1)}
         />
         <label className="tab" htmlFor="radio-1">
-          JavaScript
+          React
         </label>
 
         <input
@@ -27,7 +27,7 @@ const Tabs = () => {
           onChange={() => setActiveTab(2)}
         />
         <label className="tab" htmlFor="radio-2">
-          React
+          JavaScript
         </label>
 
         <input

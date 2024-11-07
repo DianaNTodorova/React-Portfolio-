@@ -18,7 +18,12 @@ export default function CardItem() {
               <div className="card-body">
                 <h5 className="card-title">{data.title}</h5>
                 <p className="card-text">{data.text}</p>
-                <Button className="btn btn_second">See more</Button>
+                <Button
+                  className="btn btn_second"
+                  onClick={() => window.open(data.link, '_blank')}
+                >
+                  See more
+                </Button>
               </div>
             </div>
           </div>

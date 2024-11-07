@@ -218,6 +218,9 @@ footer {
   color: #00d8fe;
   overflow: hidden;
 }
+.card-item:hover {
+  border: 1.5px solid #00d8fe;
+}
 
 /* Tabs*/
 

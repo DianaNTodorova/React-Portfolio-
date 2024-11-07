@@ -1,33 +1,26 @@
 // data.js
+import tictactoeImage from '../images/tictactoe.jpeg';
+import taskmanager from '../images/taskmanager.jpeg';
+import littlelemon from '..//images/littlelemon.jpeg';
+
 export const cardData = [
   {
-    title: 'Card 1 Title',
-    text: 'Card 1 text content',
-    imgUrl: '../images/tictactoe.jpeg', // Image URL
-    link: 'https://example.com',
+    title: 'Tic-Tac-Toe',
+    text: 'React project that recreates the very popular game Tic-Tac-Toe',
+    imgUrl: tictactoeImage, // Image URL
+    link: 'https://dianantodorova.github.io/Tic-Tac-Toe-Game/',
+    type: 'React',
   },
   {
-    title: 'Card 2 Title',
-    text: 'Card 2 text content',
-    imgUrl: 'https://example.com/image.jpg', // Image URL
-    link: 'https://example.com',
+    title: 'Task Manager',
+    text: 'Popular application for organizing tasks and managing them.',
+    imgUrl: taskmanager, // Image URL
+    link: 'https://dianantodorova.github.io/Task-Manager/',
   },
   {
-    title: 'Card 3 Title',
-    text: 'Card 3 text content',
-    imgUrl: 'https://example.com/image.jpg', // Image URL
-    link: 'https://example.com',
-  },
-  {
-    title: 'Card 4 Title',
-    text: 'Card 4 text content',
-    imgUrl: 'https://example.com/image.jpg', // Image URL
-    link: 'https://example.com',
-  },
-  {
-    title: 'Card 5 Title',
-    text: 'Card 5 text content',
-    imgUrl: 'https://example.com/image.jpg', // Image URL
+    title: 'Little Lemon Restaurant',
+    text: 'This project is still in progress. Comming soon ...',
+    imgUrl: littlelemon, // Image URL
     link: 'https://example.com',
   },
   // More card data
