@@ -46,6 +46,14 @@ a:active {
   overflow: hidden;
 }
 
+header {
+  border-bottom: 1px solid #00d8fe49;
+  box-shadow: 0 0 4px 0 #00d8fe49, 0 6px 18px 0 #00d8fe49;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
 .container {
   display: flex;
   flex-direction: row;
