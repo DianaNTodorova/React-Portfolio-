@@ -4,9 +4,15 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <header>
-      <div className="container">
+      <div className="container" style={{ backgroundColor: '#08002e' }}>
         <div className="container-img">
-          <img src={logo} alt="Logo" height={100} width={120}></img>
+          <img
+            src={logo}
+            alt="Logo"
+            height={100}
+            width={120}
+            style={{ backgroundColor: '#08002e' }}
+          ></img>
         </div>
         <div className="container-list">
           <ul>

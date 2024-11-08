@@ -52,6 +52,7 @@ header {
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
+  background-color: #08002e;
 }
 
 .container {
@@ -70,6 +71,7 @@ header {
   margin-bottom: 0;
   width: 30rem;
   transition: all 0.3s ease-in-out;
+  background-color: #08002e;
 }
 
 .container-list ul li {
@@ -82,6 +84,7 @@ header {
   position: relative; /* Necessary for the pseudo-element */
   cursor: pointer;
   transition: color 0.35s ease-in; /* Smooth color transition */
+  background-color: #08002e;
 }
 
 /* Hover effect on the text color */
