@@ -1,7 +1,7 @@
 // data.js
 import tictactoeImage from '../images/tictactoe.jpeg';
 import taskmanager from '../images/taskmanager.jpeg';
-import littlelemon from '..//images/littlelemon.jpeg';
+import littlelemon from '..//images/third-project.jpeg';
 
 export const cardData = [
   {
@@ -21,7 +21,6 @@ export const cardData = [
     title: 'Little Lemon Restaurant',
     text: 'This project is still in progress. Comming soon ...',
     imgUrl: littlelemon, // Image URL
-    link: 'https://example.com',
+    link: ' https://dianantodorova.github.io/my-little-lemon/',
   },
-  // More card data
 ];
