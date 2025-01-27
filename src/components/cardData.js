@@ -19,7 +19,7 @@ export const cardData = [
   },
   {
     title: 'Little Lemon Restaurant',
-    text: 'restaurant with options for booking a table and ordering a foor delivery',
+    text: 'Restaurant with options for booking a table and ordering a food delivery',
     imgUrl: littlelemon, // Image URL
     link: ' https://dianantodorova.github.io/my-little-lemon/',
   },
