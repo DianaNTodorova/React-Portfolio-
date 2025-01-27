@@ -17,8 +17,12 @@ const Home = () => {
       {/* First Section */}
       <section className="full-screen-section">
         <div className="container d-flex justify-content-center mt-5">
-          <div className="m-3" style={{ width: '30%' }}>
-            <img src={profile} height={280} alt="Profile" />
+          <div className="m-3" style={{ width: '45%' }}>
+            <img
+              src={profile}
+              alt="Profile"
+              className="img-fluid responsive-img rounded-circle shadow"
+            />
           </div>
           <div className="mt-5 ms-5">
             <div className="gradient-bg p-3 mb-4 px-5 ps-2 d-inline-flex bg-info bg-opacity-10 border border-2 border-info border-start-0 rounded-end text-light">

@@ -13,13 +13,13 @@ export const cardData = [
   },
   {
     title: 'Task Manager',
-    text: 'Popular application for organizing tasks and managing them.',
+    text: 'Application for organizing tasks and managing them.',
     imgUrl: taskmanager, // Image URL
     link: 'https://dianantodorova.github.io/Task-Manager/',
   },
   {
     title: 'Little Lemon Restaurant',
-    text: 'This project is still in progress. Comming soon ...',
+    text: 'restaurant with options for booking a table and ordering a foor delivery',
     imgUrl: littlelemon, // Image URL
     link: ' https://dianantodorova.github.io/my-little-lemon/',
   },

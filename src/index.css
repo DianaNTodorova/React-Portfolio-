@@ -55,6 +55,25 @@ header {
   background-color: #08002e;
 }
 
+/*the profile image*/
+.responsive-img {
+  max-width: 100%; /* Ensures image scales within its container */
+  height: auto; /* Maintains aspect ratio */
+  margin: 0 auto; /* Centers image horizontally */
+}
+
+@media (max-width: 768px) {
+  .responsive-img {
+    width: 0%; /* Adjust size for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .responsive-img {
+    width: 90%; /* Adjust size further for extra small screens */
+  }
+}
+
 .container {
   display: flex;
   flex-direction: row;
@@ -85,6 +104,24 @@ header {
   cursor: pointer;
   transition: color 0.35s ease-in; /* Smooth color transition */
   background-color: #08002e;
+}
+
+@media (max-width: 768px) {
+  .container-list ul {
+    width: 20rem;
+  }
+  .container-list ul li {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container-list ul {
+    width: 18rem;
+  }
+  .container-list ul li {
+    font-size: 16px;
+  }
 }
 
 /* Hover effect on the text color */
@@ -250,29 +287,31 @@ footer {
   display: flex;
   position: relative;
   background-color: none;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding: 1rem; /* Shortened padding shorthand */
   border-radius: 16px;
   border: 1px solid #00d8fe;
   box-shadow: 0 0 2px 0 #00d8fe, 0 3px 3px 0 #00d8fe;
   color: #00d8fe;
+  flex-wrap: wrap; /* Allow wrapping for responsiveness */
+  justify-content: space-between; /* Center tabs in the container */
+  /*gap: 1rem; /* Space between tabs */
+  overflow: hidden; /* Prevent scrollbars */
 }
 
 .tabs * {
-  z-index: 2;
+  flex-shrink: 0; /* Prevent shrinking of tab elements */
 }
 
 input[type='radio'] {
-  display: none;
+  display: none; /* Hide radio buttons */
 }
 
 .tab {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
   height: 54px;
   width: 200px;
   font-size: 1.25rem;
@@ -281,18 +320,43 @@ input[type='radio'] {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   box-shadow: 0 0 2px 0 #00d8fe44, 0 6px 12px 0 #00d8fe45;
+  text-align: center;
 }
 
 input[type='radio']:checked + label {
-  color: #00d8fe;
+  color: #fff;
+  background-color: hsl(202, 78%, 54%) !important;
   border: 2px solid #00d8fe;
   transform: translateY(-3px);
+  box-shadow: 0 8px 24px hsl(202, 78%, 54%) !important;
 }
 
-input[type='radio']:checked + label {
-  background-color: hsl(202, 78%, 54%) !important;
-  box-shadow: 0 8px 24px hsl(202, 78%, 54%) !important;
-  color: #fff !important;
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .tabs {
+    flex-wrap: wrap; /* Allow tabs to wrap into multiple rows */
+    justify-content: center; /* Center tabs in the container */
+  }
+
+  .tab {
+    width: 140px; /* Reduce width for medium screens */
+    font-size: 0.9rem; /* Adjust font size for better fit */
+  }
+}
+
+@media (max-width: 576px) {
+  .tabs {
+    flex-direction: row; /* Stack tabs vertically */
+    gap: 0.5rem; /* Adjust spacing between tabs */
+    align-items: center; /* Center align the stacked tabs */
+  }
+
+  .tab {
+    width: 100%; /* Full-width tabs for small screens */
+    max-width: none; /* Ensure tabs span the container */
+    margin: 0.5rem 0; /* Add spacing between tabs */
+    font-size: 1rem; /* Adjust font size for readability */
+  }
 }
 
 /*.glider {
