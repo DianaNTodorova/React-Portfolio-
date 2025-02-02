@@ -1,24 +1,31 @@
 {
   "files": {
-    "main.css": "/React-Portfolio-/static/css/main.1072104a.css",
-    "main.js": "/React-Portfolio-/static/js/main.3a2ef78d.js",
+    "main.css": "/React-Portfolio-/static/css/main.7e1d8492.css",
+    "main.js": "/React-Portfolio-/static/js/main.127ff6e3.js",
     "static/js/453.348ef678.chunk.js": "/React-Portfolio-/static/js/453.348ef678.chunk.js",
     "static/media/third-project.jpeg": "/React-Portfolio-/static/media/third-project.2e7494e59e113a4590bf.jpeg",
     "static/media/profile.png": "/React-Portfolio-/static/media/profile.7ab6cf1134cd5897872d.png",
     "static/media/tictactoe.jpeg": "/React-Portfolio-/static/media/tictactoe.2bd21951679032da0dc4.jpeg",
+    "static/media/fa-solid-900.ttf": "/React-Portfolio-/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
     "static/media/taskmanager.jpeg": "/React-Portfolio-/static/media/taskmanager.328299f9bd239d5e79d5.jpeg",
+    "static/media/fa-brands-400.ttf": "/React-Portfolio-/static/media/fa-brands-400.1815e00441357e01619e.ttf",
+    "static/media/fa-solid-900.woff2": "/React-Portfolio-/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
     "static/media/frontenddeveloper.png": "/React-Portfolio-/static/media/frontenddeveloper.e6890632aa78a344cd1f.png",
+    "static/media/fa-brands-400.woff2": "/React-Portfolio-/static/media/fa-brands-400.c210719e60948b211a12.woff2",
+    "static/media/fa-regular-400.ttf": "/React-Portfolio-/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
     "static/media/logo.png": "/React-Portfolio-/static/media/logo.2c761cfc3d087df4fb55.png",
+    "static/media/fa-regular-400.woff2": "/React-Portfolio-/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
     "static/media/careerpath.jpeg": "/React-Portfolio-/static/media/careerpath.e8f736f9e140513bb104.jpeg",
     "static/media/callperson.png": "/React-Portfolio-/static/media/callperson.c66c30ba3c97b28b8b6b.png",
-    "static/media/arrow.svg": "/React-Portfolio-/static/media/arrow.9f4bea4c85dd86951b4c0456e22f34bb.svg",
+    "static/media/fa-v4compatibility.ttf": "/React-Portfolio-/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
+    "static/media/fa-v4compatibility.woff2": "/React-Portfolio-/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/React-Portfolio-/index.html",
-    "main.1072104a.css.map": "/React-Portfolio-/static/css/main.1072104a.css.map",
-    "main.3a2ef78d.js.map": "/React-Portfolio-/static/js/main.3a2ef78d.js.map",
+    "main.7e1d8492.css.map": "/React-Portfolio-/static/css/main.7e1d8492.css.map",
+    "main.127ff6e3.js.map": "/React-Portfolio-/static/js/main.127ff6e3.js.map",
     "453.348ef678.chunk.js.map": "/React-Portfolio-/static/js/453.348ef678.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1072104a.css",
-    "static/js/main.3a2ef78d.js"
+    "static/css/main.7e1d8492.css",
+    "static/js/main.127ff6e3.js"
   ]
 }
