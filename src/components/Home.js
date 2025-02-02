@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
 import Tabs from './Tabs';
 import Card from './Card';
-import { ReactComponent as ArrowIcon } from '../images/arrow.svg';
+import ArrowComponent from './ArrowComponent';
 
 const Home = () => {
   const scrollToProjects = () => {
@@ -46,7 +46,7 @@ const Home = () => {
         </div>
         {/* Scroll Button */}
         <button className="scroll-button" onClick={scrollToProjects}>
-          <ArrowIcon />
+          <ArrowComponent />
         </button>
       </section>
 
