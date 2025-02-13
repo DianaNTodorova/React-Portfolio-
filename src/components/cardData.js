@@ -2,6 +2,7 @@
 import tictactoeImage from '../images/tictactoe.jpeg';
 import taskmanager from '../images/taskmanager.jpeg';
 import littlelemon from '..//images/third-project.jpeg';
+import expencetracker from '../images/expencetracker.png';
 
 export const cardData = [
   {
@@ -22,5 +23,10 @@ export const cardData = [
     text: 'Restaurant with options for booking a table and ordering a food delivery',
     imgUrl: littlelemon, // Image URL
     link: ' https://dianantodorova.github.io/my-little-lemon/',
+  },
+  {
+    title: 'Expense Tracker',
+    text: 'Frontend and Backend project with Python. Comming soon....',
+    imgUrl: expencetracker, // Image URL
   },
 ];
