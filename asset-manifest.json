@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/React-Portfolio-/static/css/main.7e1d8492.css",
-    "main.js": "/React-Portfolio-/static/js/main.127ff6e3.js",
+    "main.js": "/React-Portfolio-/static/js/main.2ea2b613.js",
     "static/js/453.348ef678.chunk.js": "/React-Portfolio-/static/js/453.348ef678.chunk.js",
     "static/media/third-project.jpeg": "/React-Portfolio-/static/media/third-project.2e7494e59e113a4590bf.jpeg",
     "static/media/profile.png": "/React-Portfolio-/static/media/profile.7ab6cf1134cd5897872d.png",
+    "static/media/expencetracker.png": "/React-Portfolio-/static/media/expencetracker.a71dd9c2cbae952935e7.png",
     "static/media/tictactoe.jpeg": "/React-Portfolio-/static/media/tictactoe.2bd21951679032da0dc4.jpeg",
     "static/media/fa-solid-900.ttf": "/React-Portfolio-/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
     "static/media/taskmanager.jpeg": "/React-Portfolio-/static/media/taskmanager.328299f9bd239d5e79d5.jpeg",
@@ -21,11 +22,11 @@
     "static/media/fa-v4compatibility.woff2": "/React-Portfolio-/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/React-Portfolio-/index.html",
     "main.7e1d8492.css.map": "/React-Portfolio-/static/css/main.7e1d8492.css.map",
-    "main.127ff6e3.js.map": "/React-Portfolio-/static/js/main.127ff6e3.js.map",
+    "main.2ea2b613.js.map": "/React-Portfolio-/static/js/main.2ea2b613.js.map",
     "453.348ef678.chunk.js.map": "/React-Portfolio-/static/js/453.348ef678.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7e1d8492.css",
-    "static/js/main.127ff6e3.js"
+    "static/js/main.2ea2b613.js"
   ]
 }
