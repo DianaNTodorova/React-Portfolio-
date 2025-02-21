@@ -27,6 +27,7 @@ export const cardData = [
   {
     title: 'Expense Tracker',
     text: 'Frontend and Backend project with Python. Comming soon....',
-    imgUrl: 'https://expense-tracker-yrju.onrender.com', // Image URL
+    imgUrl: expencetracker, // Image URL
+    link: ' https://expense-tracker-yrju.onrender.com',
   },
 ];
