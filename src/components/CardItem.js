@@ -15,15 +15,17 @@ export default function CardItem() {
                 className="card-img-top fixed-image"
                 alt={data.title}
               />
-              <div className="card-body">
+              <div className="card-body d-flex flex-column">
                 <h5 className="card-title">{data.title}</h5>
                 <p className="card-text">{data.text}</p>
-                <Button
+                <div class="mt-auto">
+                 <Button
                   className="btn btn_second"
                   onClick={() => window.open(data.link, '_blank')}
-                >
+                 >
                   See more
                 </Button>
+                </div>
               </div>
             </div>
           </div>
