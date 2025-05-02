@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio-/static/css/main.7e1d8492.css",
-    "main.js": "/React-Portfolio-/static/js/main.7b1d6437.js",
+    "main.js": "/React-Portfolio-/static/js/main.2315c936.js",
     "static/js/453.348ef678.chunk.js": "/React-Portfolio-/static/js/453.348ef678.chunk.js",
     "static/media/third-project.jpeg": "/React-Portfolio-/static/media/third-project.2e7494e59e113a4590bf.jpeg",
     "static/media/profile.png": "/React-Portfolio-/static/media/profile.7ab6cf1134cd5897872d.png",
@@ -13,6 +13,7 @@
     "static/media/fa-solid-900.woff2": "/React-Portfolio-/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
     "static/media/frontenddeveloper.png": "/React-Portfolio-/static/media/frontenddeveloper.e6890632aa78a344cd1f.png",
     "static/media/fa-brands-400.woff2": "/React-Portfolio-/static/media/fa-brands-400.c210719e60948b211a12.woff2",
+    "static/media/DiarryApp2.jpg": "/React-Portfolio-/static/media/DiarryApp2.b8ee3ebb32a68f24478a.jpg",
     "static/media/fa-regular-400.ttf": "/React-Portfolio-/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
     "static/media/logo.png": "/React-Portfolio-/static/media/logo.2c761cfc3d087df4fb55.png",
     "static/media/fa-regular-400.woff2": "/React-Portfolio-/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
@@ -22,11 +23,11 @@
     "static/media/fa-v4compatibility.woff2": "/React-Portfolio-/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/React-Portfolio-/index.html",
     "main.7e1d8492.css.map": "/React-Portfolio-/static/css/main.7e1d8492.css.map",
-    "main.7b1d6437.js.map": "/React-Portfolio-/static/js/main.7b1d6437.js.map",
+    "main.2315c936.js.map": "/React-Portfolio-/static/js/main.2315c936.js.map",
     "453.348ef678.chunk.js.map": "/React-Portfolio-/static/js/453.348ef678.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7e1d8492.css",
-    "static/js/main.7b1d6437.js"
+    "static/js/main.2315c936.js"
   ]
 }
