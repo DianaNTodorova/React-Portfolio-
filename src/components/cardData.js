@@ -3,6 +3,7 @@ import tictactoeImage from '../images/tictactoe.jpeg';
 import taskmanager from '../images/taskmanager.jpeg';
 import littlelemon from '..//images/third-project.jpeg';
 import expencetracker from '../images/expencetracker.png';
+import diaryapp from '../images/DiarryApp2.jpg';
 
 export const cardData = [
   {
@@ -26,8 +27,13 @@ export const cardData = [
   },
   {
     title: 'Expense Tracker',
-    text: 'Frontend and Backend project with Python. Comming soon....',
+    text: 'Frontend and Backend project with Python and JavaScipt. ',
     imgUrl: expencetracker, // Image URL
     link: ' https://expense-tracker-yrju.onrender.com',
+  },
+  {
+    title: 'DiaryApp',
+    text: 'Frontend and Backend project with C# and .NET. The web application is under construction ... ',
+    imgUrl: diaryapp, // Image URL
   },
 ];
