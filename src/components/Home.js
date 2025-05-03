@@ -39,7 +39,7 @@ const Home = () => {
             </p>
             <ButtonToolbar>
               <Link to="/about">
-                <Button className="mt-4 mb-3 btn_second">About Me</Button>
+                <Button className="mt-4 mb-3 btn_second"style={{ whiteSpace: 'nowrap' }}>About Me</Button>
               </Link>
             </ButtonToolbar>
           </div>
