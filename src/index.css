@@ -64,7 +64,7 @@ header {
 
 @media (max-width: 768px) {
   .responsive-img {
-    width: 0%; /* Adjust size for smaller screens */
+    width: 100%;/*Adjust size for smaller screens */
   }
 }
 
@@ -98,7 +98,7 @@ header {
   margin: 1rem;
   margin-bottom: 0;
   color: #00d8fe;
-  font-size: 24px;
+  font-size: 20px;
   font-family: 'Source Code Pro', monospace;
   position: relative; /* Necessary for the pseudo-element */
   cursor: pointer;
@@ -108,19 +108,19 @@ header {
 
 @media (max-width: 768px) {
   .container-list ul {
-    width: 20rem;
+    width: 18rem;
   }
   .container-list ul li {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
 @media (max-width: 576px) {
   .container-list ul {
-    width: 18rem;
+    width: 16rem;
   }
   .container-list ul li {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
