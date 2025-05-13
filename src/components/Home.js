@@ -30,7 +30,7 @@ const Home = () => {
             </div>
             <h3 className="mt-3 mb-3 fs-2 text">
               I am future
-              <span style={{ color: '#00d8fe' }}> Front-End</span> developer
+              <span style={{ color: '#00d8fe' }}> FullStack</span> developer
             </h3>
             <p>
               As a person I am positive and career oriented. I am interested in
