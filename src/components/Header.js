@@ -25,7 +25,7 @@ const Header = () => {
         <img src={logo} alt="Logo" height={80} width={100} />
 
         {/* Hamburger Button (Mobile Only) */}
-        <button className="btn btn-light d-md-none gradient-bg bg-info bg-opacity-10 border border-2 border-info border-start-0 rounded-end text-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav" aria-controls="offcanvasNav">
+        <button style={{width:"50px",height:"50px"}} className="btn btn-light p-1 d-md-none gradient-bg bg-info bg-opacity-10 border border-2 border-info border-start-0 rounded-end text-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav" aria-controls="offcanvasNav">
           ☰
         </button>
 
