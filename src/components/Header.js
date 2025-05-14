@@ -2,6 +2,9 @@ import { useNavigate, useLocation, Link } from "react-router-dom";
 import logo from '../images/logo.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+
 
 const Header = () => {
   const navigate = useNavigate();
@@ -25,8 +28,8 @@ const Header = () => {
         <img src={logo} alt="Logo" height={80} width={100} />
 
         {/* Hamburger Button (Mobile Only) */}
-        <button style={{width:"50px",height:"50px"}} className="btn btn-light p-1 d-md-none gradient-bg bg-info bg-opacity-10 border border-2 border-info border-start-0 rounded-end text-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav" aria-controls="offcanvasNav">
-          ☰
+        <button style={{width:"50px",height:"50px"}} className="btn btn-light p-2 d-md-none gradient-bg bg-info bg-opacity-10 border border-2 border-info border-start-0 rounded-end text-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav" aria-controls="offcanvasNav">
+          <FontAwesomeIcon icon={faBars} style={{background:"none",fontSize:"30px"}}/>
         </button>
 
         {/* Desktop Menu */}
