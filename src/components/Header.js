@@ -46,7 +46,7 @@ const Header = () => {
         {/* Offcanvas Menu */}
         <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNav" aria-labelledby="offcanvasNavLabel">
           <div className="offcanvas-header">
-            <button type="button" className="btn-close text-blue" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <button type="button" className="btn-close text-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div className="offcanvas-body">
             <div className="container-list">
