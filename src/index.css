@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #0a003c; /* Dark background */
+  background-color: #08002e; /* Dark background */
 }
 
 body {
@@ -97,7 +97,7 @@ header {
   display: inline-block;
   margin: 1rem;
   margin-bottom: 0;
-  color: #00d8fe;
+  color: #00d8fe !important;
   font-size: 20px;
   font-family: 'Source Code Pro', monospace;
   position: relative; /* Necessary for the pseudo-element */
@@ -105,22 +105,45 @@ header {
   transition: color 0.35s ease-in; /* Smooth color transition */
   background-color: #08002e;
 }
+/* Ensure links are blue by default */
+.nav-link.text-blue {
+  color: #00d8fe !important;
+  transition: color 0.3s ease;
+}
+
+/* On hover, change the color to white */
+.nav-link.text-blue:hover {
+  color: white !important;
+}
+
+/* For offcanvas links, same styling */
+.offcanvas .nav-link.text-blue {
+  color: #00d8fe !important;
+}
+
+.offcanvas .nav-link.text-blue:hover {
+  color: white !important;
+}
+.offcanvas-body{
+  background-color: #08002e;
+}
+
 
 @media (max-width: 768px) {
   .container-list ul {
-    width: 18rem;
+    width: 20rem;
   }
   .container-list ul li {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 
 @media (max-width: 576px) {
   .container-list ul {
-    width: 16rem;
+    width: 20rem;
   }
   .container-list ul li {
-    font-size: 14px;
+    font-size: 18px;
   }
 }
 
@@ -221,12 +244,13 @@ footer {
 }
 
 /* Gradient Background */
-.gradient-bg {
+.gradient-bg{
   background: linear-gradient(to right, #0a003c, #00d8fe);
   padding: 1rem 2rem;
   border-radius: 10px;
   color: #fff;
 }
+
 
 /* Card Item */
 .card-item {

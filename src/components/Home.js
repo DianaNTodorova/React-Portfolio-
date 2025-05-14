@@ -6,11 +6,32 @@ import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
 import Tabs from './Tabs';
 import Card from './Card';
 import ArrowComponent from './ArrowComponent';
+import reactimg from '../images/science.png';
+import cimg from '../images/c-.png';
+import pythonimg from '../images/python.png';
+import htmlimg from "../images/html.png";
+import cssimg from "../images/css.png";
+import bootstrapimg from "../images/bootstrap.png"
+import figmaimg from "../images/figma.png"
+import dotnetimg from "../images/social.png"
+import jsimg from "../images/js.png"
 
 const Home = () => {
   const scrollToProjects = () => {
     document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });
   };
+  const imgIcons={
+    html:htmlimg,
+    css:cssimg,
+    bootstrap:bootstrapimg,
+    figma:figmaimg,
+    js:jsimg,
+    react:reactimg,
+    puthon:pythonimg,
+    cimg:cimg,
+    dotnet:dotnetimg,
+    
+  }
 
   return (
     <div className="container-body">
@@ -35,11 +56,22 @@ const Home = () => {
             <p>
               As a person I am positive and career oriented. I am interested in
               the new technologies and trends in coding. I love changes and
-              trying new and exciting things that help me evolve professionally.
+              trying new and exciting things that help me evolve professionally. 
             </p>
+            <p className='mt-3'> {Object.values(imgIcons).map((icon, index) => (
+                <>
+                 <span>|</span> <img
+                  key={index}
+                  src={icon}
+                  alt={`icon-${index}`}
+                  style={{ width: '30px', height: '30px', marginRight: '10px' }}
+                 />
+                 </>
+                ))}<span>|</span>
+              </p>
             <ButtonToolbar>
               <Link to="/about">
-                <Button className="mt-4 mb-3 btn_second"style={{ whiteSpace: 'nowrap' }}>About Me</Button>
+                <Button className="mt-2 mb-3 btn_second"style={{ whiteSpace: 'nowrap' }}>About Me</Button>
               </Link>
             </ButtonToolbar>
           </div>
