@@ -64,7 +64,7 @@ const Home = () => {
                   key={index}
                   src={icon}
                   alt={`icon-${index}`}
-                  style={{ width: '30px', height: '30px', marginRight: '10px' }}
+                  style={{ width: '30px', height: '30px', marginRight: '10px',marginTop: '10px' }}
                  />
                  </>
                 ))}<span style={{color:"#00d8fe"}}>⋮</span>
