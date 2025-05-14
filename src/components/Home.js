@@ -46,7 +46,7 @@ const Home = () => {
             />
           </div>
           <div className="mt-5 ms-5">
-            <div className="gradient-bg p-3 mb-4 px-5 ps-2 d-inline-flex bg-info bg-opacity-10 border border-2 border-info border-start-0 rounded-end-1 text-light">
+            <div className="gradient-bg p-3 mb-4 px-5 ps-2 d-inline-flex bg-info bg-opacity-10 border border-2 border-info border-start-0 rounded-end-2 text-light">
               Welcome to my Portfolio!
             </div>
             <h3 className="mt-3 mb-3 fs-2 text">
@@ -60,14 +60,14 @@ const Home = () => {
             </p>
             <p className='mt-3'> {Object.values(imgIcons).map((icon, index) => (
                 <>
-                 <span>|</span> <img
+                 <span style={{color:"#00d8fe"}}>⋮</span> <img
                   key={index}
                   src={icon}
                   alt={`icon-${index}`}
                   style={{ width: '30px', height: '30px', marginRight: '10px' }}
                  />
                  </>
-                ))}<span>|</span>
+                ))}<span style={{color:"#00d8fe"}}>⋮</span>
               </p>
             <ButtonToolbar>
               <Link to="/about">
