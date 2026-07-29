@@ -784,6 +784,22 @@ input[type='radio']:checked + label { color: white; border: 1px solid rgba(0,216
 .card-item .card-text { min-height: 82px; color: #9eabba; font: 14px/1.65 'Roboto', sans-serif; }
 .card-item .fixed-image { height: 230px; border-bottom: 1px solid var(--line); }
 .card-item .btn_second { width: auto !important; min-width: 120px; height: 42px; border-radius: 10px; letter-spacing: .8px; }
+.project-technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 16px 0 20px;
+  background: transparent;
+}
+.technology-badge {
+  padding: 5px 10px;
+  border: 1px solid rgba(0, 216, 254, .35);
+  border-radius: 999px;
+  color: #bcefff;
+  background: rgba(0, 216, 254, .08);
+  font: 600 12px/1.2 'Roboto', sans-serif;
+  letter-spacing: .25px;
+}
 
 /* Modal and footer */
 .overlay { position: fixed; z-index: 3000; inset: 0; display: grid; place-items: center; padding: 20px; background: rgba(0,4,12,.78); backdrop-filter: blur(9px); }

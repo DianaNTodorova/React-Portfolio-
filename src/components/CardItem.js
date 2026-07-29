@@ -30,6 +30,19 @@ export default function CardItem() {
                   <h5 className="card-title">{data.title}</h5>
                   <p className="card-text m-0">{data.text}</p>
 
+                  {data.technologies && (
+                    <div
+                      className="project-technologies"
+                      aria-label={`${data.title} technologies`}
+                    >
+                      {data.technologies.map((technology) => (
+                        <span className="technology-badge" key={technology}>
+                          {technology}
+                        </span>
+                      ))}
+                    </div>
+                  )}
+
                   {/* Conditionally render technology icon */}
                   {techIcon && (
                     <img

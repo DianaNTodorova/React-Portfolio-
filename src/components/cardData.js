@@ -1,6 +1,6 @@
 // data.js
 import tictactoeImage from '../images/tictactoe-new.png';
-import taskmanager from '../images/taskmanager.jpeg';
+import taskmanager from '../images/taskmanager.png';
 import littlelemon from '..//images/third-project.jpeg';
 import expencetracker from '../images/expencetracker.png';
 import diaryapp from '../images/DiarryApp2.jpg';
@@ -21,9 +21,10 @@ export const cardData = [
   },
   {
     title: 'Task Manager',
-    text: 'Application for organizing tasks and managing them.',
+    text: 'A responsive project-planning app for creating projects, organizing tasks, and keeping day-to-day work clear and easy to manage.',
     imgUrl: taskmanager, // Image URL
     link: 'https://diana-nk.github.io/Task-Manager/',
+    technologies: ['React', 'JavaScript', 'HTML5', 'CSS3'],
   },
   {
     title: 'Expense Tracker',
